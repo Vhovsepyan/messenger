@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "478523557429",
+    "firebase_url": "https://inommachat.firebaseio.com",
+    "project_id": "inommachat",
+    "storage_bucket": "inommachat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478523557429:android:64e39786aefb4a8e",
+        "android_client_info": {
+          "package_name": "com.chat.inomma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478523557429-u6bmmb4u8tghrkarpn2sf5c74mfutkr0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chat.inomma",
+            "certificate_hash": "89001a8982a39f1375e7ba25b95412446820da72"
+          }
+        },
+        {
+          "client_id": "478523557429-st7gvfrnl7fd9ubjtclnv5hntcouu27n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcwe9kegOQt97U3jArZkMXLy1UMC77HAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478523557429-st7gvfrnl7fd9ubjtclnv5hntcouu27n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
