@@ -23,6 +23,7 @@ public class StorageServiceImpl implements StorageService {
     public static StorageService getInstance(){
         return SingletonHolder.HOLDER_INSTANCE;
     }
+
     private static class SingletonHolder {
         static final StorageServiceImpl HOLDER_INSTANCE = new StorageServiceImpl();
     }

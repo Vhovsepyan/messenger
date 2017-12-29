@@ -13,6 +13,8 @@ import java.util.HashMap;
 /**
  * Created by Vahe on 12/26/2017.
  */
+
+//todo need to use for local database with Room library
 @Entity
 public class User {
     @PrimaryKey

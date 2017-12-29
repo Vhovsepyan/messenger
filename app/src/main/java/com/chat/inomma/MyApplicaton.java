@@ -50,8 +50,8 @@ public class MyApplicaton extends Application {
         super.onCreate();
         Firebase.setAndroidContext(this);
         createAppDirIfNotExists();
-        AppDatabase db = Room.databaseBuilder(getApplicationContext(),
-                AppDatabase.class, "root").build();
+/*        AppDatabase db = Room.databaseBuilder(getApplicationContext(),
+                AppDatabase.class, "root").build();*/
 
         // Required initialization logic here!
     }
@@ -83,7 +83,7 @@ public class MyApplicaton extends Application {
         if (!newFile1.exists()){
             File file = new File(getApplicationContext().getFilesDir(), filename);
             file.mkdir();
-            AppLog.i(TAG, " 1111 not exists");
+            AppLog.i(TAG, " file created");
         }
     }
 }
